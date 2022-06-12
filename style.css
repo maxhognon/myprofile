@@ -1,0 +1,82 @@
+-/* Colors and fonts */
+body {
+  background-color: mintcream;
+}
+h1,h2 {
+  font-family: 'roboto';
+}
+h1 {
+  color: #55bf9d;
+  font-size: 30px;
+}
+h2 {
+  font-weight:600;
+  font-size: 24px;
+  color: #55bf9d;
+}
+a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+p {
+  font-family: 'Lora';
+  font-size: 18px;
+  font-weight: 400px;
+  color: black;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+.card-white {
+background-color: mintcream;
+padding: 35px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+border-radius: 7px;
+margin: 25px 0px;
+text-align: center;
+}
+.img-circle {
+  height: 140px;
+  border-radius: 50%;
+}
+.btn-green {
+  background-color: #4C8674;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding:  10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #4C8674;
+}
+#intro p{
+margin-bottom: 40px;
+}
